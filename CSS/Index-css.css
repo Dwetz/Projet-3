@@ -77,3 +77,114 @@ main .city i {
     transform: scale(1.06);
     opacity: 0.7;
 }
+
+/* Main - Fonctionnement */
+
+.Fonctionnement h3 {
+    font-family: "Roboto" , sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 28px;
+}
+
+.Fonctionnement ol{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto" , sans-serif;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.Fonctionnement li span {
+    margin-left: -40px;
+    border-radius: 50%;
+    color: white;
+    background-color: purple;
+    padding: 8px 12px;
+}
+
+.Fonctionnement li i{
+    margin-right: 25px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+.Fonctionnement li {
+    background-color: #f6f6f6;
+    box-shadow: 8px 5px 16px -13px #000000;
+    border-radius: 27px;
+    padding: 32px 30px;
+    transition: transform 1s;
+    border: none;
+}
+
+.Fonctionnement li:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+    background-color: #fdedf8;
+    font-family: "Roboto" , sans-serif;
+}
+
+@media (max-width: 950px) {
+    .Fonctionnement ol {
+        flex-direction: column;
+        margin-right: 20px;
+    }
+}
+
+/* Main - Restaurants */
+
+.Restaurants {
+    background-color: #F3F3F3;
+    margin-top: 70px;
+}
+
+.Restaurants h3{
+    font-size: 28px;
+    font-family: "Roboto" , sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 55px;
+}
+
+/* Main - Restaurants-Card */ 
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* card */
+
+.card {
+    width: 95%;
+    height: 420px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 1px 16px -5px #000000;
+}
+
+.card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 13px 13px 0px 0px;
+}
+
+.card h3 {
+    padding-left: 10px;
+    font-size: 21px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+.card p {
+    padding-left: 10px;
+    font-size: 17px;
+    margin-top: 7px;
+}
