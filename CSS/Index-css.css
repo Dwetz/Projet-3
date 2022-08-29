@@ -173,6 +173,17 @@ main .city i {
     height: 330px;
     object-fit: cover;
     border-radius: 13px 13px 0px 0px;
+    position: relative;
+}
+
+.card .img-text {
+    color: green;
+    background-color: lightgreen;
+    border: 1px solid red;
+    position: absolute;
+    padding: 5px 15px;
+    left: 2px;
+    top: 2px;
 }
 
 .card h3 {
