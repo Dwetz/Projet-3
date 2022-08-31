@@ -121,12 +121,10 @@ main .city i {
     box-shadow: 8px 5px 16px -13px #000000;
     border-radius: 27px;
     padding: 32px 30px;
-    transition: transform 1s;
     border: none;
 }
 
 .Fonctionnement li:hover {
-    transform: scale(1.06);
     cursor: pointer;
     background-color: #fdedf8;
     font-family: "Roboto" , sans-serif;
@@ -144,7 +142,7 @@ main .city i {
 .Restaurants {
     background-color: #F3F3F3;
     margin-top: 70px;
-    height: 1970px;
+    padding-bottom: 70px;
 }
 
 .Restaurants h3{
@@ -161,15 +159,15 @@ main .city i {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /* card */
 
 .card {
-    width: 95%;
+    width: 100%;
     height: 420px;
-    margin-left: 15px;
-    margin-right: 15px;
     border-radius: 15px;
     background-color: white;
     box-shadow: 2px 1px 16px -5px #000000;
@@ -193,10 +191,7 @@ main .city i {
     color: green;
     background-color: lightgreen;
     border: 1px solid red;
-    position: absolute;
     padding: 5px 15px;
-    left: 2px;
-    top: 2px;
 }
 
 .card h3 {

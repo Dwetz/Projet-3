@@ -111,7 +111,6 @@ main h4 {
     margin-bottom: 55px;
     margin-top: 10px;
     transition: transform 1s, opacity 1.5s;
-    position: absolute;
 }
 
 .bouton-commander:hover {
