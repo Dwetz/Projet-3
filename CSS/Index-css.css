@@ -11,6 +11,11 @@ body {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 /* Header */
 
 header {
@@ -71,6 +76,7 @@ main .city i {
     margin-bottom: 55px;
     margin-top: 10px;
     transition: transform 1s, opacity 1.5s;
+    cursor: pointer;
 }
 
 .explorer button:hover {
@@ -138,6 +144,7 @@ main .city i {
 .Restaurants {
     background-color: #F3F3F3;
     margin-top: 70px;
+    height: 1970px;
 }
 
 .Restaurants h3{
@@ -166,6 +173,12 @@ main .city i {
     border-radius: 15px;
     background-color: white;
     box-shadow: 2px 1px 16px -5px #000000;
+    transition: transform 1s;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    cursor: pointer;
 }
 
 .card img {
@@ -204,7 +217,7 @@ main .city i {
 
 .footer {
     background-color: rgb(65, 64, 64);
-    margin-top: 55px;
+    margin-top: -20px;
     height: 170px;
 }
 
