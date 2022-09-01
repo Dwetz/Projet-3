@@ -122,12 +122,17 @@ main .city i {
     border-radius: 27px;
     padding: 32px 30px;
     border: none;
+    font-weight: bold;
 }
 
 .Fonctionnement li:hover {
     cursor: pointer;
     background-color: #fdedf8;
     font-family: "Roboto" , sans-serif;
+}
+
+.Fonctionnement li:hover i{
+    color: purple;
 }
 
 @media (max-width: 950px) {
@@ -172,6 +177,7 @@ main .city i {
     background-color: white;
     box-shadow: 2px 1px 16px -5px #000000;
     transition: transform 1s;
+    position: relative;
 }
 
 .card:hover {
@@ -184,7 +190,6 @@ main .city i {
     height: 330px;
     object-fit: cover;
     border-radius: 13px 13px 0px 0px;
-    position: relative;
 }
 
 .card .img-text {
@@ -192,6 +197,8 @@ main .city i {
     background-color: lightgreen;
     border: 1px solid red;
     padding: 5px 15px;
+    position: absolute;
+    top: 50%;
 }
 
 .card h3 {
