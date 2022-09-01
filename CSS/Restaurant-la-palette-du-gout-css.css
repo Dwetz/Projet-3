@@ -9,17 +9,27 @@ body {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 /* Header */
 
 header i {
+    position: absolute;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: -40px;
+    color: #000000;
 }
 
 header h2 {
     font-family: "Shrikhand" , cursive;
     text-align: center;
     font-size: 30px; 
+    position: relative;
+    margin-bottom: 8px;
 }
 
 /* main */
@@ -28,16 +38,14 @@ header h2 {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    position: relative;
 }
 
 .carte-menu {
     background-color: #f3f3f3;
     border-radius: 36px 36px 0px 0px;
     margin-top: -45px;
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 2000px;
 }
 
 main h3 {
@@ -99,7 +107,7 @@ main h4 {
 
 /* Bouton Commander */
 
-.bouton-commander {
+.bouton-commander button{
     color: white;
     padding: 20px 40px;
     font-style: bold;
@@ -108,12 +116,15 @@ main h4 {
     border-radius: 40px;
     box-shadow: 2px 1px 16px -5px #000000;
     background-image: linear-gradient(rgb(247, 155, 247) , rgb(138, 8, 138));
-    margin-bottom: 55px;
-    margin-top: 10px;
     transition: transform 1s, opacity 1.5s;
+    margin-left: 140px;
+    width: 50%;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 85px;
 }
 
-.bouton-commander:hover {
+.bouton-commander button:hover {
     transform: scale(1.06);
     opacity: 0.7;
     cursor: pointer;
@@ -123,7 +134,7 @@ main h4 {
 
 .footer {
     background-color: rgb(65, 64, 64);
-    margin-top: 55px;
+    margin-top: -20px;
     height: 170px;
 }
 
