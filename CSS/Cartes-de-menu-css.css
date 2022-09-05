@@ -56,6 +56,20 @@ header h2 {
     right: 6%;
 }
 
+.carte-menu i.fa-solid.fa-heart {
+    opacity: 0;
+    cursor: pointer;
+}
+
+i.fa-solid.fa-heart {
+    transition: all 0.3s linear 0s;
+}
+
+i.fa-solid.fa-heart:hover{
+    opacity: 1;
+    color: #9356DC;
+    cursor: pointer;
+}
 
 main h3 {
     font-family: "Shrikhand" , cursive;
@@ -72,7 +86,7 @@ main i {
 
 main h4 {
     font-size: 18px;
-    border-bottom: 1px solid aquamarine;
+    border-bottom: 1px solid #99E2D0;
     border-width: 3px;
     margin-left: 25px;
     width: 50px;
@@ -128,8 +142,8 @@ main h4 {
     border: none;
     border-radius: 40px;
     box-shadow: 2px 1px 16px -5px #000000;
-    background-image: linear-gradient(rgb(247, 155, 247) , rgb(138, 8, 138));
-    transition: transform 1s, opacity 1.5s;
+    background-image: linear-gradient(#FF79DA,#9356DC);
+    transition: transform 1s, opacity 1.5s , box-shadow 1.5s;
     width: 50%;
     margin-top: 45px;
     margin-bottom: 85px;
@@ -138,6 +152,7 @@ main h4 {
 .bouton-commander button:hover {
     transform: scale(1.06);
     opacity: 0.7;
+    box-shadow: 2px 1px 16px 1px #000000;
     cursor: pointer;
 }
 
