@@ -27,11 +27,11 @@ a {
     left: 0px;
     right: 0px;
     z-index: 1;
-    opacity: 0.85;
+    opacity: 0.95;
     text-align: center;
     font-size: 30px;
     color: #99E2D0;
-    
+    animation: disparetion 2s 3s forwards 
 }
 
 .load{
@@ -62,14 +62,14 @@ a {
     animation: spin 1s linear 0s infinite;
 }
 
-.load p {
-    margin-left: 60px;
-    margin-top: 0px;
+@keyframes disparetion{
+    0% {transform: scale(1);}
+    100% {transform: scale(0);};
 }
 
 @keyframes spin{
-  0% {transform: rotate(0deg);}
-  100% {transform: rotate(360deg);}
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
 
 /* Header */
