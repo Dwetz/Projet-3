@@ -110,6 +110,9 @@ main h4 {
     display: flex;
     cursor: pointer;
     height: 73px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     animation: card-transition 1s ease-in-out;
 }
 
@@ -145,7 +148,6 @@ main h4 {
     width: 93%;
     display: flex;
     flex-direction: column;
-    text-overflow: ellipsis;
 }
 
 .prix {
@@ -155,6 +157,7 @@ main h4 {
 }
 
 .Menu .check {
+    display: none;
     width: 0px;
     margin-left: 7px;
     border-radius: 0px 15px 15px 0px;
@@ -240,6 +243,7 @@ main h4 {
     color: rgb(224, 224, 224);
     padding-top: 20px;
     padding-left: 20px;
+    font-weight: 400;
 }
 
 .footer ul {
