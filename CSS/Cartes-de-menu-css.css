@@ -115,7 +115,7 @@ main h4 {
     display: flex;
     cursor: pointer;
     height: 73px;
-    animation: card-transition 1.5s linear;
+    animation: card-transition 1s linear;
     opacity: 0;
     animation-fill-mode: forwards;
 }
@@ -131,16 +131,16 @@ main h4 {
     }
 }
 
-.Menu:nth-child(5) {animation-delay: 1.0s; }
-.Menu:nth-child(6) {animation-delay: 1.5s; }
-.Menu:nth-child(7) {animation-delay: 2.0s; }
-.Menu:nth-child(9) {animation-delay: 2.5s; }
-.Menu:nth-child(10) {animation-delay: 3.0s; }
-.Menu:nth-child(11) {animation-delay: 3.5s; }
-.Menu:nth-child(13) {animation-delay: 4.0s; }
-.Menu:nth-child(14) {animation-delay: 4.5s; }
-.Menu:nth-child(15) {animation-delay: 5.0s; }
-.Menu:nth-child(16) {animation-delay: 5.5s; }
+.Menu:nth-child(5) {animation-delay: 0.5s; }
+.Menu:nth-child(6) {animation-delay: 0.8s; }
+.Menu:nth-child(7) {animation-delay: 1.1s; }
+.Menu:nth-child(9) {animation-delay: 1.4s; }
+.Menu:nth-child(10) {animation-delay: 1.7s; }
+.Menu:nth-child(11) {animation-delay: 2.0s; }
+.Menu:nth-child(13) {animation-delay: 2.3s; }
+.Menu:nth-child(14) {animation-delay: 2.6s; }
+.Menu:nth-child(15) {animation-delay: 2.9s; }
+.Menu:nth-child(16) {animation-delay: 3.2s; }
 
 .Menu h5 {
     font-size: 18px;
