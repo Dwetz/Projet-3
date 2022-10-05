@@ -30,18 +30,15 @@ a {
     opacity: 0.95;
     text-align: center;
     font-size: 30px;
-    color: #99E2D0;
-    animation: disparetion 1s 2s forwards 
+    animation: disparition 1s 2s forwards 
 }
 
 .load{
     width: 50px;
     height: 50px;
     display: inline-block;
-    vertical-align: middle;
     position: relative;
     margin-top: 400px;
-    gap: 20px;
 }
 
 .loader {
@@ -62,7 +59,7 @@ a {
     animation: spin 1s linear 0s infinite;
 }
 
-@keyframes disparetion{
+@keyframes disparition{
     0% {transform: scale(1);}
     100% {transform: scale(0);}
 }

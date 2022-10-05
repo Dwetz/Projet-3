@@ -204,12 +204,10 @@ main h4 {
     padding: 3px;
     background-color: #f3f3f3;
     border-radius: 20px; 
-    transition: all 1s ease-in-out ;
-    transform: rotate(-360deg); 
 }
 
 .Menu:hover .check i.fa-solid.fa-check {
-   animation: spinner-menu 1s forwards;
+   animation: spinner-menu 1s ;
 }
 
 @keyframes spinner-menu {
@@ -218,7 +216,7 @@ main h4 {
     }
 
     100% {
-        transform: rotate(-360deg);
+        transform: rotate(360deg);
     }
 }
 
